@@ -1,4 +1,4 @@
-<img src="./assets/ocean-header.svg" width="100%" alt="Ye-Seol Kwon" />
+<img src="./assets/name-header.svg" width="100%" alt="Ye-Seol Kwon" />
 
 Student at Korea Maritime & Ocean University · IOES Lab<br>
 Interested in underwater robotics and simulation.
