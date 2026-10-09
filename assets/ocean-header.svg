@@ -1,65 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" fill="none" role="img" aria-labelledby="title desc">
-  <title id="title">Ye-Seol Kwon — Maritime robotics and simulation</title>
-  <desc id="desc">A deep navy banner with teal bathymetric contours and a small underwater vehicle illustration.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="180" viewBox="0 0 1280 180" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Ye-Seol Kwon</title>
   <defs>
-    <linearGradient id="sea" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0B1729"/>
-      <stop offset="0.6" stop-color="#0B2535"/>
-      <stop offset="1" stop-color="#0C3D48"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1280" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#102435"/>
+      <stop offset="1" stop-color="#153B44"/>
     </linearGradient>
-    <linearGradient id="fade" x1="630" y1="180" x2="1260" y2="180" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#58C7C5" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#58C7C5" stop-opacity="0.24"/>
-      <stop offset="1" stop-color="#58C7C5" stop-opacity="0.58"/>
-    </linearGradient>
-    <linearGradient id="beam" x1="969" y1="150" x2="969" y2="295" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#70DED0" stop-opacity="0.20"/>
-      <stop offset="1" stop-color="#70DED0" stop-opacity="0"/>
-    </linearGradient>
-    <clipPath id="frame"><rect width="1280" height="360" rx="16"/></clipPath>
+    <clipPath id="frame"><rect width="1280" height="180" rx="12"/></clipPath>
   </defs>
   <g clip-path="url(#frame)">
-    <rect width="1280" height="360" fill="url(#sea)"/>
-    <g stroke="#8CCFD0" stroke-opacity="0.06">
-      <path d="M760 0V360M840 0V360M920 0V360M1000 0V360M1080 0V360M1160 0V360M1240 0V360"/>
-      <path d="M720 40H1280M720 120H1280M720 200H1280M720 280H1280"/>
+    <rect width="1280" height="180" fill="url(#background)"/>
+    <g stroke="#84C7C4" stroke-opacity="0.16" stroke-width="1.2">
+      <path d="M740 167C852 173 842 68 952 87S1105 187 1294 94"/>
+      <path d="M740 149C852 155 842 50 952 69S1105 169 1294 76"/>
+      <path d="M740 131C852 137 842 32 952 51S1105 151 1294 58"/>
+      <path d="M740 113C852 119 842 14 952 33S1105 133 1294 40"/>
+      <path d="M740 95C852 101 842 -4 952 15S1105 115 1294 22"/>
     </g>
-    <g stroke="url(#fade)" stroke-width="1.2">
-      <path d="M625 326C755 308 751 192 856 219S1009 361 1134 281S1235 215 1320 236"/>
-      <path d="M625 308C735 291 756 174 859 198S1016 341 1131 260S1241 195 1320 218"/>
-      <path d="M625 290C730 270 754 156 863 177S1022 321 1128 239S1247 175 1320 200"/>
-      <path d="M625 272C725 249 752 138 867 156S1028 301 1125 218S1253 155 1320 182"/>
-      <path d="M625 254C720 228 750 120 871 135S1034 281 1122 197S1259 135 1320 164"/>
-      <path d="M625 236C715 207 748 102 875 114S1040 261 1119 176S1265 115 1320 146"/>
-      <path d="M625 218C710 186 746 84 879 93S1046 241 1116 155S1271 95 1320 128"/>
-      <path d="M625 200C705 165 744 66 883 72S1052 221 1113 134S1277 75 1320 110"/>
-      <path d="M625 182C700 144 742 48 887 51S1058 201 1110 113S1283 55 1320 92"/>
-      <path d="M625 164C695 123 740 30 891 30S1064 181 1107 92S1289 35 1320 74"/>
-      <path d="M625 146C690 102 738 12 895 9S1070 161 1104 71S1295 15 1320 56"/>
-    </g>
-    <path d="M973 151L887 290Q973 319 1059 290Z" fill="url(#beam)"/>
-    <path d="M973 151L908 271M973 151L1038 271" stroke="#70DED0" stroke-opacity="0.28" stroke-dasharray="4 7"/>
-    <path d="M938 215Q973 230 1008 215M923 242Q973 264 1023 242M908 270Q973 299 1038 270" stroke="#70DED0" stroke-opacity="0.36"/>
-    <g transform="translate(921 119)" stroke="#A6EFE1" stroke-width="1.7" stroke-linejoin="round">
-      <path d="M9 14H89C103 14 111 22 114 26C111 30 103 38 89 38H9Z" fill="#123A46"/>
-      <path d="M9 19L0 9V43L9 33M60 14L52 3H38L39 14M48 38L40 48H54L64 38" fill="#123A46"/>
-      <path d="M84 15V37M22 15V37" stroke-opacity="0.45"/>
-      <circle cx="97" cy="26" r="3" fill="#A6EFE1" stroke="none"/>
-    </g>
-    <circle cx="1140" cy="70" r="3" fill="#EACA8B"/>
-    <path d="M1132 70H1120M1148 70H1160M1140 62V50M1140 78V90" stroke="#EACA8B" stroke-opacity="0.44"/>
-    <g font-family="Arial, Helvetica, sans-serif">
-      <rect x="60" y="54" width="24" height="3" rx="1.5" fill="#75D7C9"/>
-      <text x="99" y="61" fill="#8DB4BD" font-size="13" font-weight="600" letter-spacing="3">MARITIME ROBOTICS / OPEN SOURCE</text>
-      <text x="58" y="154" fill="#F2F7F9" font-size="68" font-weight="700" letter-spacing="-2">Ye-Seol Kwon</text>
-      <text x="61" y="198" fill="#B7CDD5" font-size="23" letter-spacing="0.3">Exploring the ocean through simulation.</text>
-      <line x1="61" y1="242" x2="607" y2="242" stroke="#7DB0BE" stroke-opacity="0.22"/>
-      <text x="61" y="277" fill="#7CD8CA" font-size="14" font-weight="600" letter-spacing="2.2">POSIM</text>
-      <circle cx="139" cy="272" r="2" fill="#607F8A"/>
-      <text x="155" y="277" fill="#AEC5CD" font-size="14" letter-spacing="1.7">ROS 2 + GAZEBO</text>
-      <circle cx="314" cy="272" r="2" fill="#607F8A"/>
-      <text x="330" y="277" fill="#AEC5CD" font-size="14" letter-spacing="1.7">IOES LAB</text>
-      <text x="1207" y="329" text-anchor="end" fill="#7FADB6" font-size="11" letter-spacing="2">YESEORIZI</text>
-    </g>
+    <text x="54" y="110" fill="#F0F5F6" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="500" letter-spacing="-1">Ye-Seol Kwon</text>
   </g>
 </svg>
